@@ -138,7 +138,7 @@ In the final step, we reward the player with a diamond block. To tell when we're
 1. Repeat, Unconditional, Always Active - Command Input: `/scoreboard players set #total_wool totals 0`
 1. Chain, Unconditional, Always Active - Command Input: `/scoreboard players operation #total_wool totals += * wool_placed`
 1. Chain, Unconditional, Always Active - Command Input: `/scoreboard players test #total_wool totals 3 3`
-1. Chain, Conditional, Always Active - Command Input: `/give @a diamond_block_`
+1. Chain, Conditional, Always Active - Command Input: `/give @a diamond_block`
 1. Chain, Conditional, Always Active - Command Input: `/scoreboard players set #red wool_placed 2`
 
 ## What are these command blocks doing?
